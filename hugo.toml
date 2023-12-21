@@ -1,8 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://2029sheepyang.github.io/myf/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
 publishDir = "docs"
+canonifyurls = true
+hasCJKLanguage = true
+summaryLength = 30
 [markup]
 defaultMarkdownHandler = "goldmark"
 [markup.goldmark]
